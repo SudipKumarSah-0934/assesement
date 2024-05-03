@@ -25,7 +25,7 @@ class _FavoriteListScreenState extends State<FavoriteListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar:
-          customAppBar('WISHLIST', context, automaticallyImplyLeading: true),
+          customAppBar('Favorite List', context, automaticallyImplyLeading: true),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           context.read<FavoritelistCubit>().clearFavoritelist();
