@@ -38,6 +38,9 @@ class _SearchScreenState extends State<SearchScreen> {
   @override
   void initState() {
     scrollController.addListener(_scrollListener);
+    context.read<FavoritelistCubit>().loadFavoritelist();
+
+
     super.initState();
   }
 

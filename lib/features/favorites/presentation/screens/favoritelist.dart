@@ -54,7 +54,7 @@ class _FavoriteListScreenState extends State<FavoriteListScreen> {
                       ),
                       const SizedBox(height: 8),
                       const Text(
-                        "There Is No Saved Products.\n Please Add New Products!",
+                        "There Is No Saved Photos.\n Please Add New Photos!",
                         textAlign: TextAlign.center,
                       )
                     ],

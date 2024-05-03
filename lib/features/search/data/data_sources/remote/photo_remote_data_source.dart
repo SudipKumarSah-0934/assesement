@@ -19,7 +19,6 @@ class PhotoRemoteDataSourceImpl implements PhotoRemoteDataSource {
       '$baseUrl?key=$defaultApiKey&category=${params.keyword}&page=${params.pageSize}&per_page=20)}');
 
   Future<PhotoResponseModel> _getPhotoFromUrl(String url) async {
-    print('ok ok $url ');
     final response = await client.get(
       Uri.parse(url),
       headers: {
